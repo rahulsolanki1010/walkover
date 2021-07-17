@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
+  color: #fff !important;
+  background-color: #61122f !important;
   font-family: "Oxygen", sans-serif;
 }
 
@@ -78,16 +78,14 @@ li {
   font-size: 25px;
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: row;
-}
 figure {
   flex-basis: 33%;
   width: 300px;
+  margin: 50px;
 }
 figure img {
   width: 100%;
+
   object-fit: cover;
   border-radius: 10px;
 }
@@ -103,4 +101,30 @@ figcaption {
 .about {
   font-size: 40px;
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .s {
+    width: 100%;
+  }
+}
+
+@media screen and(min-width: 768px) and (max-width: 1200px) {
+  .m {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .s {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-item {
+    display: none !important;
+  }
+  .main-img img {
+    margin: auto;
+  }
 }
