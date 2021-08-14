@@ -1,4 +1,4 @@
-body {
+[10:24, 14/08/2021] Saharsh P: body {
   margin: 0;
 }
 h2 {
@@ -92,6 +92,19 @@ footer {
   padding: 00.5em;
   margin: 00.5em;
 }
+.inbox4 {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.inbox5 {
+  margin-top: 1em;
+  margin-right: 1em;
+  margin-left: 0;
+  margin-bottom: 0;
+}
 @media screen and (max-width: 768px) {
   .grid {
     width: 100%;
@@ -110,9 +123,3 @@ footer {
     margin: 00.5em;
   }
 }
-
-/* @media screen and (min-width: 769px) and (max-width: 1200px) {
-    .grid {
-      width: 100%;
-    }
-  } */
