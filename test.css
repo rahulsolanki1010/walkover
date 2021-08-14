@@ -176,3 +176,18 @@ footer {
     margin: 00.5em;
   }
 }
+.footer {
+  width: 100%;
+  text-align: end;
+  padding-top: 1em;
+}
+
+.footer-item {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding-right: 20px;
+  color: white;
+  background-color: teal;
+  margin: 0.5em;
+}
